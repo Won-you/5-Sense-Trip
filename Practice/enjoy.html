@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습</title>
+  <style>
+    table{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th,td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+  <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>철인왕후</h1>
+  
+  <img src="C:\Users\user\Desktop\웹개발\Images\poster.jpg" alt="철인왕후 포스터" width="50%">
+  <p>내가 요즘 제일 좋아하는 드라마이다.</p>
+  <p><em><u>소용이랑 철종이의 캐미</em></u>가 좋다. 너무 맘에 든다.</p>
+  <p>화진이가 일찍 포기한 것도 맘에 든다. 요즘엔 <br>
+  사극 로맨스 소설도 볼까 생각중이다.</p>
+  <p><u>내일 볼 <strong>철인왕후 대나무숲2편</strong>이 기대가 된다.</u></p>
+  
+  <table>
+    <caption><strong>철종과 소용이 주고받은 선물목록</strong></caption>
+    <tr> 
+      <th>상품이름</th>
+      <th>특징</th>
+      <th>애정도</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td>비녀</td>
+      <td>철종이 사과</td>
+      <td>30%</td>
+      <td>5마농</td>
+    </tr>
+    <tr>
+      <td>자수 목도리</td>
+      <td>소용이의 애정</td>
+      <td>100%</td>
+      <td>50마농</td>
+    </tr>
+    <tr>
+      <td>꽃</td>
+      <td>오다주음</td>
+      <td>15%</td>
+      <td>0원</td>
+    </tr>
+    <tr>
+      <td>서신</td>
+      <td>밤</td>
+      <td>70%</td>
+      <td>5원</td>
+    </tr>
+  </table>
+  <form>
+    <fieldset>
+      <legend>설문조사</legend>
+      <label>나이<input type="number" size="10"></label>
+      <p>시청 여부</p>
+      <label><input type="radio" name="watch" value="watch">봤다</label>
+      <label><input type="radio" name="watch" value="no watch">안 봤다</label>
+
+      <p>응원하는 커플은?</p>
+      <label><input type="checkbox" name="couple" value="couple">철종,소용</label>
+      <label><input type="checkbox" name="couple1" value="couple1">철종,봉환</label>
+      <label><input type="checkbox" name="couple2" value="couple2">철종,화진</label>
+      <input type="submit" value="제출">
+    </fieldset>
+  </form>
+</body>
+</html>
